@@ -15,10 +15,6 @@ scalaVersion := "2.12.11"
 
 publishMavenStyle := true
 
-bintrayOrganization := Some("givers")
-
-bintrayRepository := "maven"
-
 publishArtifact in Test := false
 
 pomIncludeRepository := { _ => false }
